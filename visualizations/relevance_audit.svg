@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="290" viewBox="0 0 800 290">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="28" y="37" font-size="24" font-family="Arial" font-weight="bold" fill="#18243b">Аудит первых двух объявлений на запрос</text>
+<text x="28" y="65" font-size="14" font-family="Arial" fill="#657186">24 неслучайных наблюдения; нельзя экстраполировать доли на рынок.</text>
+<text x="28" y="110" font-size="14" font-family="Arial" fill="#26334d">Да</text>
+<rect x="180" y="93" width="219.23" height="24" rx="4" fill="#4567a9"/>
+<text x="409.2" y="111" font-size="14" font-family="Arial" fill="#26334d">6</text>
+<text x="28" y="150" font-size="14" font-family="Arial" fill="#26334d">Смежная</text>
+<rect x="180" y="133" width="182.69" height="24" rx="4" fill="#4567a9"/>
+<text x="372.7" y="151" font-size="14" font-family="Arial" fill="#26334d">5</text>
+<text x="28" y="190" font-size="14" font-family="Arial" fill="#26334d">Нет</text>
+<rect x="180" y="173" width="475.00" height="24" rx="4" fill="#4567a9"/>
+<text x="665.0" y="191" font-size="14" font-family="Arial" fill="#26334d">13</text>
+<text x="28" y="275" font-size="12" font-family="Arial" fill="#647084">Источник: сохранённый срез 17.10.2026; см. data/README.md</text>
+</svg>
