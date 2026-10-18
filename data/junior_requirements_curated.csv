@@ -1,0 +1,23 @@
+role,skill_or_task,category,source_url,method
+Бизнес-аналитик,BPMN / UML / IDEF0,process modelling,https://career.hh.ru/profession/3,qualitative_curation_not_frequency
+Бизнес-аналитик,SQL (базовый),data,https://career.hh.ru/profession/3,qualitative_curation_not_frequency
+UX/UI-дизайнер,Figma и прототипирование,design,https://career.hh.ru/profession/24,qualitative_curation_not_frequency
+UX/UI-дизайнер,проектирование простого интерфейса,design,https://career.hh.ru/profession/24,qualitative_curation_not_frequency
+QA-инженер,тест-кейсы и сценарии,qa,https://career.hh.ru/profession/72,qualitative_curation_not_frequency
+QA-инженер,документирование дефектов,qa,https://career.hh.ru/profession/72,qualitative_curation_not_frequency
+Аналитик данных,SQL,data,https://career.hh.ru/profession/6,qualitative_curation_not_frequency
+Аналитик данных,Python и очистка данных,data,https://career.hh.ru/profession/6,qualitative_curation_not_frequency
+Системный аналитик,сбор и формализация требований,requirements,https://career.hh.ru/profession/8,qualitative_curation_not_frequency
+Системный аналитик,спецификации и тестирование систем,requirements,https://career.hh.ru/profession/8,qualitative_curation_not_frequency
+Финансовый аналитик,Excel и модели сценариев,finance,https://career.hh.ru/article/finansovyj-analitik-professiya-budushego-ili-net,qualitative_curation_not_frequency
+Финансовый аналитик,ROI / NPV и финансовые метрики,finance,https://career.hh.ru/article/finansovyj-analitik-professiya-budushego-ili-net,qualitative_curation_not_frequency
+Менеджер проектов,ведение документации и протоколов,projects,https://career.hh.ru/profession/59,qualitative_curation_not_frequency
+Менеджер проектов,планирование сроков и бюджета,projects,https://career.hh.ru/profession/59,qualitative_curation_not_frequency
+Python-разработчик,базовые конструкции Python,programming,https://career.hh.ru/profession/50,qualitative_curation_not_frequency
+Python-разработчик,разработка и тестирование скриптов,programming,https://career.hh.ru/profession/50,qualitative_curation_not_frequency
+Интернет-маркетолог,Яндекс Метрика / Google Analytics,marketing,https://career.hh.ru/article/kto-takoj-internet-marketolog-i-chem-on-otlichaetsya-ot-drugih-marketologov,qualitative_curation_not_frequency
+Интернет-маркетолог,анализ воронки и A/B-тестирование,marketing,https://career.hh.ru/article/kto-takoj-internet-marketolog-i-chem-on-otlichaetsya-ot-drugih-marketologov,qualitative_curation_not_frequency
+Data Scientist,подготовка данных и базовые ML-модели,ml,https://career.hh.ru/profession/1,qualitative_curation_not_frequency
+Data Scientist,визуализация и интерпретация результатов,ml,https://career.hh.ru/profession/1,qualitative_curation_not_frequency
+Frontend-разработчик,HTML / CSS / JavaScript,web,https://career.hh.ru/profession/40,qualitative_curation_not_frequency
+Frontend-разработчик,React / Angular / Vue: простые компоненты,web,https://career.hh.ru/profession/40,qualitative_curation_not_frequency
