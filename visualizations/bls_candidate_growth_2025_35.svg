@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440"><rect width="100%" height="100%" fill="#fff"/>
+<text x="24" y="37" font-size="24" font-family="Arial" font-weight="bold" fill="#14263a">США: прогноз роста занятости</text>
+<text x="24" y="63" font-size="13" font-family="Arial" fill="#64748b">Проценты изменения численности работников за 2025–2035 годы</text>
+<text x="24" y="107" font-size="16" font-family="Arial" fill="#1f2937">Python-разработчик</text>
+<rect x="270" y="89" width="168.03" height="30" rx="5" fill="#385d95"/>
+<text x="448.03" y="110" font-size="15" font-family="Arial" fill="#273a53">10.2%</text>
+<text x="24" y="154" font-size="16" font-family="Arial" fill="#1f2937">Интернет-маркетолог</text>
+<rect x="270" y="136" width="115.32" height="30" rx="5" fill="#385d95"/>
+<text x="395.32" y="157" font-size="15" font-family="Arial" fill="#273a53">7%</text>
+<text x="24" y="201" font-size="16" font-family="Arial" fill="#1f2937">Менеджер проектов</text>
+<rect x="270" y="183" width="110.38" height="30" rx="5" fill="#385d95"/>
+<text x="390.38" y="204" font-size="15" font-family="Arial" fill="#273a53">6.7%</text>
+<text x="24" y="248" font-size="16" font-family="Arial" fill="#1f2937">Системный аналитик</text>
+<rect x="270" y="230" width="130.14" height="30" rx="5" fill="#385d95"/>
+<text x="410.14" y="251" font-size="15" font-family="Arial" fill="#273a53">7.9%</text>
+<text x="24" y="295" font-size="16" font-family="Arial" fill="#1f2937">Data Scientist</text>
+<rect x="270" y="277" width="570.00" height="30" rx="5" fill="#385d95"/>
+<text x="850.00" y="298" font-size="15" font-family="Arial" fill="#273a53">34.6%</text>
+<text x="24" y="342" font-size="16" font-family="Arial" fill="#1f2937">Финансовый аналитик</text>
+<rect x="270" y="324" width="118.61" height="30" rx="5" fill="#385d95"/>
+<text x="398.61" y="345" font-size="15" font-family="Arial" fill="#273a53">7.2%</text>
+<text x="24" y="389" font-size="16" font-family="Arial" fill="#1f2937">Frontend-разработчик</text>
+<rect x="270" y="371" width="62.60" height="30" rx="5" fill="#385d95"/>
+<text x="342.60" y="392" font-size="15" font-family="Arial" fill="#273a53">3.8%</text>
+<text x="24" y="428" font-size="13" font-family="Arial" fill="#64748b">BLS США, прогноз 2025–2035. Соответствие профессий может быть неполным.</text></svg>
