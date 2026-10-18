@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="990" height="650" viewBox="0 0 990 650">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="28" y="37" font-size="24" font-family="Arial" font-weight="bold" fill="#18243b">Поисковые совпадения hh.ru: 12 направлений</text>
+<text x="28" y="65" font-size="14" font-family="Arial" fill="#657186">НЕ число уникальных вакансий. Не рейтинг перспективности профессий.</text>
+<text x="28" y="110" font-size="14" font-family="Arial" fill="#26334d">Аналитик данных</text>
+<rect x="245" y="93" width="600.00" height="24" rx="4" fill="#4567a9"/>
+<text x="855.0" y="111" font-size="14" font-family="Arial" fill="#26334d">5,494</text>
+<text x="28" y="150" font-size="14" font-family="Arial" fill="#26334d">Менеджер проектов</text>
+<rect x="245" y="133" width="526.83" height="24" rx="4" fill="#4567a9"/>
+<text x="781.8" y="151" font-size="14" font-family="Arial" fill="#26334d">4,824</text>
+<text x="28" y="190" font-size="14" font-family="Arial" fill="#26334d">Финансовый аналитик</text>
+<rect x="245" y="173" width="391.41" height="24" rx="4" fill="#4567a9"/>
+<text x="646.4" y="191" font-size="14" font-family="Arial" fill="#26334d">3,584</text>
+<text x="28" y="230" font-size="14" font-family="Arial" fill="#26334d">Системный аналитик</text>
+<rect x="245" y="213" width="379.40" height="24" rx="4" fill="#4567a9"/>
+<text x="634.4" y="231" font-size="14" font-family="Arial" fill="#26334d">3,474</text>
+<text x="28" y="270" font-size="14" font-family="Arial" fill="#26334d">Продакт-менеджер</text>
+<rect x="245" y="253" width="134.33" height="24" rx="4" fill="#4567a9"/>
+<text x="389.3" y="271" font-size="14" font-family="Arial" fill="#26334d">1,230</text>
+<text x="28" y="310" font-size="14" font-family="Arial" fill="#26334d">QA-инженер</text>
+<rect x="245" y="293" width="116.75" height="24" rx="4" fill="#4567a9"/>
+<text x="371.7" y="311" font-size="14" font-family="Arial" fill="#26334d">1,069</text>
+<text x="28" y="350" font-size="14" font-family="Arial" fill="#26334d">Python-разработчик</text>
+<rect x="245" y="333" width="107.57" height="24" rx="4" fill="#4567a9"/>
+<text x="362.6" y="351" font-size="14" font-family="Arial" fill="#26334d">985</text>
+<text x="28" y="390" font-size="14" font-family="Arial" fill="#26334d">Интернет-маркетолог</text>
+<rect x="245" y="373" width="53.73" height="24" rx="4" fill="#4567a9"/>
+<text x="308.7" y="391" font-size="14" font-family="Arial" fill="#26334d">492</text>
+<text x="28" y="430" font-size="14" font-family="Arial" fill="#26334d">UX/UI-дизайнер</text>
+<rect x="245" y="413" width="42.05" height="24" rx="4" fill="#4567a9"/>
+<text x="297.0" y="431" font-size="14" font-family="Arial" fill="#26334d">385</text>
+<text x="28" y="470" font-size="14" font-family="Arial" fill="#26334d">Бизнес-аналитик (IT)</text>
+<rect x="245" y="453" width="34.29" height="24" rx="4" fill="#4567a9"/>
+<text x="289.3" y="471" font-size="14" font-family="Arial" fill="#26334d">314</text>
+<text x="28" y="510" font-size="14" font-family="Arial" fill="#26334d">Data Scientist</text>
+<rect x="245" y="493" width="19.22" height="24" rx="4" fill="#4567a9"/>
+<text x="274.2" y="511" font-size="14" font-family="Arial" fill="#26334d">176</text>
+<text x="28" y="550" font-size="14" font-family="Arial" fill="#26334d">Frontend-разработчик</text>
+<rect x="245" y="533" width="17.04" height="24" rx="4" fill="#4567a9"/>
+<text x="272.0" y="551" font-size="14" font-family="Arial" fill="#26334d">156</text>
+<text x="28" y="635" font-size="12" font-family="Arial" fill="#647084">Источник: сохранённый срез 17.10.2026; см. data/README.md</text>
+</svg>
