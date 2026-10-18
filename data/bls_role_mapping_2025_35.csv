@@ -1,0 +1,13 @@
+role,stage,soc_code,bls_occupation,employment_2025_thousands,annual_openings_2025_35_thousands,growth_2025_35_pct,mapping_quality,simulation_feasibility_assumption_0_to_1,ru_skills_reference,bls_source
+Бизнес-аналитик,existing,13-1111,Management analysts,1077.1,94.1,10.1,partial,0.95,https://career.hh.ru/profession/3,https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm
+UX/UI-дизайнер,existing,15-1255,Web and digital interface designers,132.7,8.3,6,partial,0.95,https://career.hh.ru/profession/24,https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm
+Продакт-менеджер,existing,,,,,,missing,0.85,,https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm
+QA-инженер,existing,15-1253,Software quality assurance analysts and testers,187.6,10.7,5.7,close,0.95,https://career.hh.ru/profession/72,https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm
+Аналитик данных,existing,15-2031,Operations research analysts,113.1,7.5,11.9,weak,0.95,https://career.hh.ru/profession/6,https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm
+Системный аналитик,candidate,15-1211,Computer systems analysts,544.4,32.9,7.9,close,0.95,https://career.hh.ru/profession/8,https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm
+Финансовый аналитик,candidate,13-2051,Financial and investment analysts,377.2,24.7,7.2,close,0.95,https://career.hh.ru/article/finansovyj-analitik-professiya-budushego-ili-net,https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm
+Менеджер проектов,candidate,13-1082,Project management specialists,1094.3,76.5,6.7,close,0.95,https://career.hh.ru/profession/59,https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm
+Python-разработчик,candidate,15-1252,Software developers,1717.8,95.3,10.2,weak,0.8,https://career.hh.ru/profession/50,https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm
+Интернет-маркетолог,candidate,13-1161,Market research analysts and marketing specialists,952.7,82,7,partial,0.95,https://career.hh.ru/article/kto-takoj-internet-marketolog-i-chem-on-otlichaetsya-ot-drugih-marketologov,https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm
+Data Scientist,candidate,15-2051,Data scientists,275.6,24.8,34.6,close,0.65,https://career.hh.ru/profession/1,https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm
+Frontend-разработчик,candidate,15-1254,Web developers,87.4,5.3,3.8,partial,0.75,https://career.hh.ru/profession/40,https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm
