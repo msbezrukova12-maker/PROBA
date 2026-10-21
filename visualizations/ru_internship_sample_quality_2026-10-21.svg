@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="990" height="318" viewBox="0 0 990 318">
 <rect width="100%" height="100%" fill="white"/>
 <text x="25" y="42" font-family="Arial" font-size="24" font-weight="bold" fill="#172943">Качество первых двух результатов</text>
-<text x="25" y="67" font-family="Arial" font-size="14" fill="#56657a">12 объявлений: по 2 на каждую из 6 профессий</text>
+<text x="25" y="67" font-family="Arial" font-size="14" fill="#56657a">14 объявлений: по 2 на каждую из 7 профессий</text>
 <text x="25" y="107" font-family="Arial" font-size="15" fill="#23354d">Точная стажировка</text>
 <rect x="380" y="88" width="455.0" height="26" rx="5" fill="#4267a8"/>
-<text x="847.0" y="107" font-family="Arial" font-size="15" fill="#23354d">5</text>
+<text x="847.0" y="107" font-family="Arial" font-size="15" fill="#23354d">6</text>
 <text x="25" y="149" font-family="Arial" font-size="15" fill="#23354d">Смежная стажировка</text>
-<rect x="380" y="130" width="364.0" height="26" rx="5" fill="#4267a8"/>
-<text x="756.0" y="149" font-family="Arial" font-size="15" fill="#23354d">4</text>
+<rect x="380" y="130" width="303.3" height="26" rx="5" fill="#4267a8"/>
+<text x="695.3" y="149" font-family="Arial" font-size="15" fill="#23354d">4</text>
 <text x="25" y="191" font-family="Arial" font-size="15" fill="#23354d">Сфера близкая, стажировка не указана</text>
-<rect x="380" y="172" width="182.0" height="26" rx="5" fill="#4267a8"/>
-<text x="574.0" y="191" font-family="Arial" font-size="15" fill="#23354d">2</text>
+<rect x="380" y="172" width="151.7" height="26" rx="5" fill="#4267a8"/>
+<text x="543.7" y="191" font-family="Arial" font-size="15" fill="#23354d">2</text>
 <text x="25" y="233" font-family="Arial" font-size="15" fill="#23354d">Нерелевантно</text>
-<rect x="380" y="214" width="91.0" height="26" rx="5" fill="#4267a8"/>
-<text x="483.0" y="233" font-family="Arial" font-size="15" fill="#23354d">1</text>
+<rect x="380" y="214" width="151.7" height="26" rx="5" fill="#4267a8"/>
+<text x="543.7" y="233" font-family="Arial" font-size="15" fill="#23354d">2</text>
 <text x="25" y="302" font-family="Arial" font-size="12" fill="#64748b">Скриншоты hh.ru, Москва, 21.10.2026. Не показатель числа уникальных стажировок.</text>
 </svg>
