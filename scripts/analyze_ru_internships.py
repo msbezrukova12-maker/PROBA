@@ -24,12 +24,11 @@ sample = load("hh_internship_first_two_audit_2026-10-21.csv")
 observed = [row for row in snapshot if row["search_matches"]]
 missing = [row for row in snapshot if not row["search_matches"]]
 assert len(snapshot) == 7
-assert len(observed) == 6 and len(missing) == 1
-assert missing[0]["role"] == "Data Scientist"
+assert len(observed) == 7 and not missing
 assert all(row["location"] == "Москва" and row["experience_filter"] == "Нет опыта" and row["internship_filter"] == "Стажировка" for row in snapshot)
 assert all(row["snapshot_date"] == "2026-10-21" for row in snapshot)
 assert all(int(row["visible_listings_audited"]) == 2 for row in observed)
-assert len(sample) == 12
+assert len(sample) == 14
 assert set(row["role"] for row in sample) == set(row["role"] for row in observed)
 assert all(Counter(row["role"] for row in sample)[r["role"]] == 2 for r in observed)
 
@@ -40,7 +39,7 @@ labels = [
     ("irrelevant", "Нерелевантно"),
 ]
 counts = Counter(row["relevance_class"] for row in sample)
-assert sum(counts.values()) == 12 and set(counts) == {key for key, _ in labels}
+assert sum(counts.values()) == 14 and set(counts) == {key for key, _ in labels}
 
 observed_sorted = sorted(observed, key=lambda row: int(row["search_matches"]), reverse=True)
 with (DATA / "hh_internship_search_aggregate_2026-10-21.csv").open("w", encoding="utf-8", newline="") as f:
@@ -82,10 +81,12 @@ def bar_svg(rows, title, subtitle, width=1020, bar_start=320):
 )
 (CHARTS / "ru_internship_sample_quality_2026-10-21.svg").write_text(
     bar_svg([(label, counts[key]) for key, label in labels],
-            "Качество первых двух результатов", "12 объявлений: по 2 на каждую из 6 профессий", width=990, bar_start=380),
+            "Качество первых двух результатов", "14 объявлений: по 2 на каждую из 7 профессий", width=990, bar_start=380),
     encoding="utf-8",
 )
+assert sum(int(r["search_matches"]) for r in observed) == 167
+assert counts == {"exact_internship": 6, "adjacent_internship": 4, "related_without_explicit_internship": 2, "irrelevant": 2}
 print("Observed queries:", len(observed))
-print("Unobserved:", ", ".join(row["role"] for row in missing))
+print("Unobserved:", ", ".join(row["role"] for row in missing) or "none")
 print("Search matches, NOT unique jobs:", sum(int(r["search_matches"]) for r in observed))
 print("Audit categories:", dict(counts))
