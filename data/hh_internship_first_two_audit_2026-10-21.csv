@@ -1,0 +1,13 @@
+role,result_position,job_title,employer,relevance_class,review_note,explicit_internship_title,source_screenshot_filename
+Менеджер проектов,1,Скаут менеджер,Градиус,irrelevant,not a project-management role,no,image(20261021-123957).png
+Менеджер проектов,2,Менеджер продукта (Product manager)/стажер,ООО Экосистема Альфа,adjacent_internship,product management is not project management,yes,image(20261021-123957).png
+Системный аналитик,1,Стажер системный аналитик,АО Электронная Москва,exact_internship,explicit system analyst internship,yes,image(20261021-124037).png
+Системный аналитик,2,"Системный аналитик (стажер), группа цифровизации учетных функций",Б1 (B1),exact_internship,explicit system analyst internship,yes,image(20261021-124037).png
+Финансовый аналитик,1,Стажер в отдел финансовой аналитики / Finance & Accounting Intern,ООО Procter & Gamble,exact_internship,title explicitly specifies financial analysis team; scope may be broader,yes,image(20261021-124108).png
+Финансовый аналитик,2,Treasury Intern / Стажер казначейства,ООО Точка Роста,adjacent_internship,treasury related to finance but not financial analyst,yes,image(20261021-124108).png
+Интернет-маркетолог,1,Директолог - маркетолог по Яндекс Директ на модульные дома,ООО Сэнтеп,related_without_explicit_internship,marketing role but internship not stated in title,no,image(20261021-124129).png
+Интернет-маркетолог,2,Помощник по маркетингу,BIT POWER,related_without_explicit_internship,marketing assistant; internship not stated in title,no,image(20261021-124129).png
+Python-разработчик,1,Стажер-инженер технологий машинного обучения,ООО Р-Вижн,adjacent_internship,ML engineering internship; Python not confirmed from title,yes,image(20261021-124146).png
+Python-разработчик,2,Стажер RPA-разработчик,ГКУ Инфогород,adjacent_internship,RPA internship; Python not confirmed from title,yes,image(20261021-124146).png
+Frontend-разработчик,1,Стажер Frontend-разработчик,Bellerage,exact_internship,explicit frontend internship,yes,image(20261021-124202).png
+Frontend-разработчик,2,Стажер фронтенд-разработчик (fast track),Яндекс,exact_internship,explicit frontend internship,yes,image(20261021-124202).png
