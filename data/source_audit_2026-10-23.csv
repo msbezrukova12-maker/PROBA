@@ -1,0 +1,17 @@
+source_id,content_verified_2026_10_23,application_status_evidence,note
+PM01,page_readable,explicit_archived,Archived marker visible on listing page
+PM02,page_readable,not_confirmed,Listing and task description readable; acceptance status not verified
+PM03,page_readable,explicit_archived,Archived marker visible on listing page
+PM04,page_readable,not_confirmed,Listing and tasks readable; acceptance status not verified
+SA01,page_readable,deadline_expired,Published application deadline was 2026-10-21
+SA02,unavailable,unverified,Official employer page timed out; exact content not independently reconfirmed
+FA01,page_readable,not_confirmed,Listing text readable; acceptance status not verified
+MK01,page_readable,explicit_archived,Archived marker visible on listing page
+MK02,page_readable,explicit_archived,Archived marker visible on listing page
+MK03,unavailable,unverified,Mirror page timed out; no new independent review
+PY01,page_readable,not_confirmed,Listing text readable; acceptance status not verified
+FE01,page_readable,not_confirmed,Official employer page readable; application acceptance not verified
+FE02,page_readable,not_confirmed,Listing text readable; acceptance status not verified
+DS01,page_readable,not_confirmed,Listing text readable and role matched
+DS02,page_readable,not_confirmed,Official employer page readable; application acceptance not verified
+DS03,page_readable,not_confirmed,Official employer page readable; application acceptance not verified
