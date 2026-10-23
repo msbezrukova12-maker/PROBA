@@ -24,9 +24,10 @@ jobs:
           python-version: "3.12"
       - name: Validate and recompute the two source-linked studies
         run: |
-          python -m py_compile scripts/analyze_ru_internships.py scripts/analyze_verified_entry_roles.py
+          python -m py_compile scripts/analyze_ru_internships.py scripts/analyze_verified_entry_roles.py scripts/validate_interest_input.py
           python scripts/analyze_ru_internships.py
           python scripts/analyze_verified_entry_roles.py
+          python scripts/validate_interest_input.py
       - name: Verify generated CSV dimensions
         run: |
           python - <<'PY'
@@ -44,5 +45,14 @@ jobs:
           assert sum(row["relevance"] == "adjacent" for row in source) == 2
           assert len(read("verified_role_coverage_2026-10-23.csv")) == 7
           assert len(read("verified_skill_frequency_2026-10-23.csv")) == 47
+          audit = read("source_audit_2026-10-23.csv")
+          assert len(audit) == 16
+          assert {row["source_id"] for row in audit} == {row["source_id"] for row in source}
+          assert sum(row["content_verified_2026_10_23"] == "page_readable" for row in audit) == 14
+          assert sum(row["application_status_evidence"] == "explicit_archived" for row in audit) == 4
+          assert sum(row["application_status_evidence"] == "deadline_expired" for row in audit) == 1
+          interest = read("interest_wordstat_collection_template.csv")
+          assert len(interest) == 14
+          assert all(not row["observed_value"] for row in interest), "Never commit invented demand measurements"
           print("Research integrity checks passed")
           PY
