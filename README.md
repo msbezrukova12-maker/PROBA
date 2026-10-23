@@ -8,6 +8,10 @@
 **Роль в кейсе:** исследование рынка труда, анализ требований, приоритизация профессиональных направлений и содержание практических проб.
 
 
+### Проверка гипотез о пользовательском интересе — следующий этап
+
+[План эксперимента и схема событий](docs/proba-interest-experiment.md) · [Пример SQL-воронки](sql/proba_interest_funnel_example.sql). **Эти события пока не подключены к продукту, реальных показателей интереса по ним нет.** Здесь описан проект проверки интереса студентов, а не измеренный спрос.
+
 ### Новые источники и частоты навыков — 23 октября 2026
 
 **[Аналитический отчёт](docs/research-verified-postings-2026-10-23.md)** · [16 отдельных объявлений с URL](data/verified_entry_roles_2026-10-23.csv) · [Частоты навыков в отобранных объявлениях](data/verified_skill_frequency_2026-10-23.csv) · [SQL + Python](scripts/analyze_verified_entry_roles.py) · [7 сценариев заданий](docs/proba-task-mapping-from-vacancies.md)
@@ -95,6 +99,8 @@
 - [Методика анализа и план проверки гипотез](docs/research-methodology.md)
 - [Список профессиональных направлений](data/profession_candidates.csv)
 - **[Подробный анализ требований из 16 отдельных объявлений](docs/research-verified-postings-2026-10-23.md)**
+- [GitHub Actions: проверка Python/SQLite-аналитики](https://github.com/msbezrukova12-maker/PROBA/actions/workflows/verify-research.yml)
+- [Схема измерения пользовательского интереса и SQL-воронка](docs/proba-interest-experiment.md)
 - [Сценарии профессиональных проб на основе вакансий](docs/proba-task-mapping-from-vacancies.md)
 - [Российские стажировки (7 запросов), графики и аудит релевантности](docs/research-ru-internships-2026-10-21.md)**
 - [Результаты прежнего предварительного поиска](docs/research-results.md)
