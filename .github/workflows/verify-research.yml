@@ -1,0 +1,48 @@
+name: Verify PROBA research datasets
+
+on:
+  push:
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - ".github/workflows/verify-research.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - ".github/workflows/verify-research.yml"
+
+jobs:
+  verify-research:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate and recompute the two source-linked studies
+        run: |
+          python -m py_compile scripts/analyze_ru_internships.py scripts/analyze_verified_entry_roles.py
+          python scripts/analyze_ru_internships.py
+          python scripts/analyze_verified_entry_roles.py
+      - name: Verify generated CSV dimensions
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          p = Path("data")
+          def read(name):
+              with (p / name).open(encoding="utf-8", newline="") as f:
+                  return list(csv.DictReader(f))
+          assert len(read("hh_internships_moscow_2026-10-21.csv")) == 7
+          assert len(read("hh_internship_first_two_audit_2026-10-21.csv")) == 14
+          source = read("verified_entry_roles_2026-10-23.csv")
+          assert len(source) == 16
+          assert sum(row["relevance"] == "exact" for row in source) == 14
+          assert sum(row["relevance"] == "adjacent" for row in source) == 2
+          assert len(read("verified_role_coverage_2026-10-23.csv")) == 7
+          assert len(read("verified_skill_frequency_2026-10-23.csv")) == 47
+          print("Research integrity checks passed")
+          PY
