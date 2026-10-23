@@ -1,0 +1,48 @@
+role,skill,postings_with_skill,exact_role_sample_size
+Data Scientist,ML,3,3
+Data Scientist,Python,3,3
+Data Scientist,SQL,2,3
+Data Scientist,Computer_Vision,1,3
+Data Scientist,Go,1,3
+Data Scientist,mathematics,1,3
+Data Scientist,Pandas,1,3
+Data Scientist,PyTorch,1,3
+Data Scientist,statistics,1,3
+Data Scientist,time_series,1,3
+Frontend-разработчик,Git,2,2
+Frontend-разработчик,REST_API,2,2
+Frontend-разработчик,TypeScript,2,2
+Frontend-разработчик,Vue,2,2
+Frontend-разработчик,HTML_CSS,1,2
+Frontend-разработчик,JavaScript,1,2
+Frontend-разработчик,NodeJS,1,2
+Frontend-разработчик,Playwright,1,2
+Frontend-разработчик,PostgreSQL,1,2
+Python-разработчик,A_B_testing,1,1
+Python-разработчик,data_processing,1,1
+Python-разработчик,Go,1,1
+Python-разработчик,Python,1,1
+Интернет-маркетолог,A_B_testing,1,1
+Интернет-маркетолог,campaign_metrics,1,1
+Интернет-маркетолог,GA4,1,1
+Интернет-маркетолог,web_analytics,1,1
+Интернет-маркетолог,Yandex_Metrika,1,1
+Менеджер проектов,coordination,4,4
+Менеджер проектов,communication,3,4
+Менеджер проектов,data_analysis,2,4
+Менеджер проектов,deadline_tracking,2,4
+Менеджер проектов,presentations,2,4
+Менеджер проектов,event_planning,1,4
+Менеджер проектов,Jira,1,4
+Менеджер проектов,market_research,1,4
+Системный аналитик,requirements,2,2
+Системный аналитик,BPMN,1,2
+Системный аналитик,documentation,1,2
+Системный аналитик,JSON,1,2
+Системный аналитик,REST_API,1,2
+Системный аналитик,SQL,1,2
+Системный аналитик,UML,1,2
+Финансовый аналитик,Excel,1,1
+Финансовый аналитик,financial_analysis,1,1
+Финансовый аналитик,financial_modelling,1,1
+Финансовый аналитик,PowerPoint,1,1
