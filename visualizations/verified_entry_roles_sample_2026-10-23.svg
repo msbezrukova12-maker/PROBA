@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="448" viewBox="0 0 1050 448">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="24" y="36" font-family="Arial" font-size="23" font-weight="bold" fill="#172943">Прямые стажировки по профессиям в выборке</text>
+<text x="24" y="63" font-family="Arial" font-size="14" fill="#64748b">Только проверенные URL, не сравнение абсолютного спроса</text>
+<text x="24" y="110" font-family="Arial" font-size="15" fill="#24364c">Менеджер проектов</text>
+<rect x="330" y="93" width="580.0" height="27" rx="4" fill="#4267a8"/>
+<text x="920.0" y="113" font-family="Arial" font-size="15" fill="#24364c">4</text>
+<text x="24" y="154" font-family="Arial" font-size="15" fill="#24364c">Data Scientist</text>
+<rect x="330" y="137" width="435.0" height="27" rx="4" fill="#4267a8"/>
+<text x="775.0" y="157" font-family="Arial" font-size="15" fill="#24364c">3</text>
+<text x="24" y="198" font-family="Arial" font-size="15" fill="#24364c">Frontend-разработчик</text>
+<rect x="330" y="181" width="290.0" height="27" rx="4" fill="#4267a8"/>
+<text x="630.0" y="201" font-family="Arial" font-size="15" fill="#24364c">2</text>
+<text x="24" y="242" font-family="Arial" font-size="15" fill="#24364c">Системный аналитик</text>
+<rect x="330" y="225" width="290.0" height="27" rx="4" fill="#4267a8"/>
+<text x="630.0" y="245" font-family="Arial" font-size="15" fill="#24364c">2</text>
+<text x="24" y="286" font-family="Arial" font-size="15" fill="#24364c">Интернет-маркетолог</text>
+<rect x="330" y="269" width="145.0" height="27" rx="4" fill="#4267a8"/>
+<text x="485.0" y="289" font-family="Arial" font-size="15" fill="#24364c">1</text>
+<text x="24" y="330" font-family="Arial" font-size="15" fill="#24364c">Python-разработчик</text>
+<rect x="330" y="313" width="145.0" height="27" rx="4" fill="#4267a8"/>
+<text x="485.0" y="333" font-family="Arial" font-size="15" fill="#24364c">1</text>
+<text x="24" y="374" font-family="Arial" font-size="15" fill="#24364c">Финансовый аналитик</text>
+<rect x="330" y="357" width="145.0" height="27" rx="4" fill="#4267a8"/>
+<text x="485.0" y="377" font-family="Arial" font-size="15" fill="#24364c">1</text>
+<text x="24" y="435" font-family="Arial" font-size="12" fill="#64748b">Отобранные ссылки, 23.10.2026. Это НЕ объём рынка и НЕ случайная выборка.</text>
+</svg>
