@@ -1,0 +1,22 @@
+role,intent_type,query_exact_as_entered,region,period_start,period_end,metric_type,observed_total,collected_at,screenshot_reference,notes
+Менеджер проектов,occupation_broad,менеджер проектов,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Менеджер проектов,learning_intent,обучение менеджер проектов,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Менеджер проектов,internship_intent,стажировка менеджер проектов,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Системный аналитик,occupation_broad,системный аналитик,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Системный аналитик,learning_intent,обучение системный аналитик,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Системный аналитик,internship_intent,стажировка системный аналитик,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Финансовый аналитик,occupation_broad,финансовый аналитик,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Финансовый аналитик,learning_intent,обучение финансовый аналитик,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Финансовый аналитик,internship_intent,стажировка финансовый аналитик,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Интернет-маркетолог,occupation_broad,интернет маркетолог,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Интернет-маркетолог,learning_intent,обучение интернет маркетолог,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Интернет-маркетолог,internship_intent,стажировка интернет маркетолог,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Python-разработчик,occupation_broad,python разработчик,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Python-разработчик,learning_intent,обучение python разработчик,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Python-разработчик,internship_intent,стажировка python разработчик,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Frontend-разработчик,occupation_broad,фронтенд разработчик,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Frontend-разработчик,learning_intent,обучение фронтенд разработчик,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Frontend-разработчик,internship_intent,стажировка фронтенд разработчик,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Data Scientist,occupation_broad,data scientist,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Data Scientist,learning_intent,обучение data scientist,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
+Data Scientist,internship_intent,стажировка data scientist,Россия,2025-10,2026-09,sum_of_12_monthly_dynamics_counts,,,,No value collected; broad query includes mixed search intents
