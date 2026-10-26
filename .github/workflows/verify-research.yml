@@ -24,11 +24,12 @@ jobs:
           python-version: "3.12"
       - name: Validate and recompute the two source-linked studies
         run: |
-          python -m py_compile scripts/analyze_ru_internships.py scripts/analyze_verified_entry_roles.py scripts/validate_interest_input.py scripts/analyze_wordstat_broad_2026_10.py
+          python -m py_compile scripts/analyze_ru_internships.py scripts/analyze_verified_entry_roles.py scripts/validate_interest_input.py scripts/analyze_wordstat_broad_2026_10.py scripts/analyze_wordstat_top_queries.py
           python scripts/analyze_ru_internships.py
           python scripts/analyze_verified_entry_roles.py
           python scripts/validate_interest_input.py
           python scripts/analyze_wordstat_broad_2026_10.py
+          python scripts/analyze_wordstat_top_queries.py
       - name: Verify generated CSV dimensions
         run: |
           python - <<'PY'
@@ -72,5 +73,13 @@ jobs:
           assert [int(r["total_search_requests"]) for r in summary] == [
               340806,339946,301612,88064,86708,84401,81309
           ]
+          top = read("wordstat_top_queries_2026-10-26.csv")
+          assert len(top) == 180
+          assert len({r["seed_query"] for r in top}) == 9
+          assert len({r["role"] for r in top}) == 7
+          assert all(r["range_start"] == "2026-09-08" and r["range_end"] == "2026-10-07" for r in top)
+          intents = read("wordstat_intent_signals_2026-10-26.csv")
+          assert len(intents) == 9
+          assert {r["seed_query"] for r in intents} == {r["seed_query"] for r in top}
           print("Research integrity checks passed")
           PY
