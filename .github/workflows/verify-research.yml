@@ -24,10 +24,11 @@ jobs:
           python-version: "3.12"
       - name: Validate and recompute the two source-linked studies
         run: |
-          python -m py_compile scripts/analyze_ru_internships.py scripts/analyze_verified_entry_roles.py scripts/validate_interest_input.py
+          python -m py_compile scripts/analyze_ru_internships.py scripts/analyze_verified_entry_roles.py scripts/validate_interest_input.py scripts/analyze_wordstat_broad_2026_10.py
           python scripts/analyze_ru_internships.py
           python scripts/analyze_verified_entry_roles.py
           python scripts/validate_interest_input.py
+          python scripts/analyze_wordstat_broad_2026_10.py
       - name: Verify generated CSV dimensions
         run: |
           python - <<'PY'
@@ -61,5 +62,15 @@ jobs:
           interest = read("interest_wordstat_collection_template.csv")
           assert len(interest) == 14
           assert all(not row["observed_value"] for row in interest), "Never commit invented demand measurements"
+          broad = read("wordstat_broad_monthly_2026-10-26.csv")
+          assert len(broad) == 96
+          assert sum(bool(r["search_count"]) for r in broad) == 88
+          assert sum(not r["search_count"] for r in broad) == 8
+          assert all(not r["search_count"] for r in broad if r["month"] == "2026-09")
+          summary = read("wordstat_broad_11m_summary_2026-10-26.csv")
+          assert len(summary) == 7
+          assert [int(r["total_search_requests"]) for r in summary] == [
+              340806,339946,301612,88064,86708,84401,81309
+          ]
           print("Research integrity checks passed")
           PY
