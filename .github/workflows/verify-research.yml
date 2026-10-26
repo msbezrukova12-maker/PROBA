@@ -51,6 +51,13 @@ jobs:
           assert sum(row["content_verified_2026_10_23"] == "page_readable" for row in audit) == 14
           assert sum(row["application_status_evidence"] == "explicit_archived" for row in audit) == 4
           assert sum(row["application_status_evidence"] == "deadline_expired" for row in audit) == 1
+          new_interest = read("interest_wordstat_v2_template.csv")
+          assert len(new_interest) == 21
+          assert len({r["role"] for r in new_interest}) == 7
+          historical = read("wordstat_how_to_partial_2026-10-26.csv")
+          assert len(historical) == 48
+          assert sum(bool(r["count_visible"]) for r in historical) == 44
+          assert sum(not r["count_visible"] for r in historical) == 4
           interest = read("interest_wordstat_collection_template.csv")
           assert len(interest) == 14
           assert all(not row["observed_value"] for row in interest), "Never commit invented demand measurements"
