@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="28" y="42" font-family="Arial" font-weight="bold" font-size="25" fill="#1e293b">Wordstat: среднемесячная частота названий профессий</text>
+<text x="28" y="69" font-family="Arial" font-size="15" fill="#475569">11 полных видимых месяцев, октябрь 2025 — август 2026 · «Все регионы»</text>
+<text x="28" y="123" font-family="Arial" font-size="16" fill="#1e293b">Системный аналитик</text>
+<rect x="330" y="104" width="610.00" height="30" rx="5" fill="#385b98"/>
+<text x="952.00" y="127" font-family="Arial" font-size="16" fill="#1e293b">30,982</text>
+<text x="28" y="175" font-family="Arial" font-size="16" fill="#1e293b">Менеджер проектов</text>
+<rect x="330" y="156" width="608.46" height="30" rx="5" fill="#385b98"/>
+<text x="950.46" y="179" font-family="Arial" font-size="16" fill="#1e293b">30,904</text>
+<text x="28" y="227" font-family="Arial" font-size="16" fill="#1e293b">Финансовый аналитик</text>
+<rect x="330" y="208" width="539.85" height="30" rx="5" fill="#385b98"/>
+<text x="881.85" y="231" font-family="Arial" font-size="16" fill="#1e293b">27,419</text>
+<text x="28" y="279" font-family="Arial" font-size="16" fill="#1e293b">Интернет-маркетолог</text>
+<rect x="330" y="260" width="157.62" height="30" rx="5" fill="#385b98"/>
+<text x="499.62" y="283" font-family="Arial" font-size="16" fill="#1e293b">8,006</text>
+<text x="28" y="331" font-family="Arial" font-size="16" fill="#1e293b">Data Scientist</text>
+<rect x="330" y="312" width="155.20" height="30" rx="5" fill="#385b98"/>
+<text x="497.20" y="335" font-family="Arial" font-size="16" fill="#1e293b">7,883</text>
+<text x="28" y="383" font-family="Arial" font-size="16" fill="#1e293b">Frontend-разработчик</text>
+<rect x="330" y="364" width="151.07" height="30" rx="5" fill="#385b98"/>
+<text x="493.07" y="387" font-family="Arial" font-size="16" fill="#1e293b">7,673</text>
+<text x="28" y="435" font-family="Arial" font-size="16" fill="#1e293b">Python-разработчик</text>
+<rect x="330" y="416" width="145.53" height="30" rx="5" fill="#385b98"/>
+<text x="487.53" y="439" font-family="Arial" font-size="16" fill="#1e293b">7,392</text>
+<text x="28" y="505" font-family="Arial" font-size="13" fill="#64748b">Число запросов, не уникальных пользователей; варианты написания нельзя просто суммировать.</text>
+</svg>
