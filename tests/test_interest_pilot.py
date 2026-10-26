@@ -39,6 +39,15 @@ class InterestPilotTests(unittest.TestCase):
         self.assertEqual(out["min_position_exposures"], 1)
         self.assertEqual(out["max_position_exposures"], 1)
 
+    def test_missing_card_positions_are_counted_as_zero(self):
+        one_session = [
+            e for e in self.events if e["session_id"] == "demo_s_01"
+        ]
+        row = self.one_role(one_session, role="system_analyst")
+        self.assertEqual(row["sessions_exposed"], 1)
+        self.assertEqual(row["min_position_exposures"], 0)
+        self.assertEqual(row["max_position_exposures"], 1)
+
     def test_duplicate_delivery_is_deduplicated(self):
         rows, _ = read_events(FIXTURE)
         duplicate = copy.deepcopy(rows[0])
