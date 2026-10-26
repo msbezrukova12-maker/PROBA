@@ -137,8 +137,12 @@ def analyze(entries, experiment: str, start: datetime, end: datetime,
                 "intent_ci95_lower": round(lo, 5) if lo is not None else None,
                 "intent_ci95_upper": round(hi, 5) if hi is not None else None,
                 "open_rate": round(values["opens"] / n, 5) if n else None,
-                "min_position_exposures": min(values["positions"].values()) if n else 0,
-                "max_position_exposures": max(values["positions"].values()) if n else 0,
+                "min_position_exposures": min(
+                    values["positions"].get(pos, 0) for pos in range(1, 8)
+                ) if n else 0,
+                "max_position_exposures": max(
+                    values["positions"].get(pos, 0) for pos in range(1, 8)
+                ) if n else 0,
                 "interpretation": "exploratory_only" if n >= min_exposures
                                   else "insufficient_exposures",
             })
