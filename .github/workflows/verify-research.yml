@@ -5,11 +5,15 @@ on:
     paths:
       - "data/**"
       - "scripts/**"
+      - "tests/**"
+      - "sql/**"
       - ".github/workflows/verify-research.yml"
   pull_request:
     paths:
       - "data/**"
       - "scripts/**"
+      - "tests/**"
+      - "sql/**"
       - ".github/workflows/verify-research.yml"
 
 jobs:
@@ -22,14 +26,35 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate and recompute the two source-linked studies
+      - name: Validate research scripts and exercise offline product experiment
         run: |
-          python -m py_compile scripts/analyze_ru_internships.py scripts/analyze_verified_entry_roles.py scripts/validate_interest_input.py scripts/analyze_wordstat_broad_2026_10.py scripts/analyze_wordstat_top_queries.py
+          python -m py_compile scripts/analyze_ru_internships.py scripts/analyze_verified_entry_roles.py scripts/validate_interest_input.py scripts/analyze_wordstat_broad_2026_10.py scripts/analyze_wordstat_top_queries.py scripts/analyze_interest_pilot.py
           python scripts/analyze_ru_internships.py
           python scripts/analyze_verified_entry_roles.py
           python scripts/validate_interest_input.py
           python scripts/analyze_wordstat_broad_2026_10.py
           python scripts/analyze_wordstat_top_queries.py
+      - name: Validate synthetic experiment fixture and session-level attribution
+        run: |
+          python -m unittest discover -s tests -p 'test_interest_pilot.py' -v
+          python scripts/analyze_interest_pilot.py \
+            --input tests/fixtures/SYNTHETIC_interest_events.csv \
+            --experiment-id proba_career_interest_v1 \
+            --start 2026-10-20 --end 2026-10-21 \
+            --output /tmp/proba_interest_demo.json
+          python - <<'PY'
+          import json
+          with open("/tmp/proba_interest_demo.json", encoding="utf-8") as f:
+              report = json.load(f)
+          assert report["status"] == "DEMONSTRATION_ONLY"
+          assert report["data_origin"] == "SYNTHETIC"
+          assert report["unit"] == "anonymous_sessions_not_unique_people"
+          assert len(report["results"]) == 7
+          assert all(r["sessions_exposed"] == 7 for r in report["results"])
+          assert all(r["interpretation"] == "insufficient_exposures" for r in report["results"])
+          assert all(r["sessions_intent"] <= r["sessions_exposed"] for r in report["results"])
+          print("Synthetic pilot demo passed, no real demand inferred")
+          PY
       - name: Verify generated CSV dimensions
         run: |
           python - <<'PY'
