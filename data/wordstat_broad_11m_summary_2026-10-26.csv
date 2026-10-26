@@ -1,0 +1,8 @@
+role,phrase,region,months,total_search_requests,monthly_mean,oct_2025,aug_2026,oct_to_aug_pct,measurement_type
+Системный аналитик,системный аналитик,Все регионы,11,340806,30982.36,39949,28761,-28.01,broad_phrase_interest_proxy
+Менеджер проектов,менеджер проектов,Все регионы,11,339946,30904.18,43713,20385,-53.37,broad_phrase_interest_proxy
+Финансовый аналитик,финансовый аналитик,Все регионы,11,301612,27419.27,32961,25100,-23.85,broad_phrase_interest_proxy
+Интернет-маркетолог,интернет маркетолог,Все регионы,11,88064,8005.82,12388,5864,-52.66,broad_phrase_interest_proxy
+Data Scientist,data scientist,Все регионы,11,86708,7882.55,11110,4962,-55.34,broad_phrase_interest_proxy
+Frontend-разработчик,фронтенд разработчик,Все регионы,11,84401,7672.82,12067,5588,-53.69,broad_phrase_interest_proxy
+Python-разработчик,python разработчик,Все регионы,11,81309,7391.73,9805,5863,-40.20,broad_phrase_interest_proxy
